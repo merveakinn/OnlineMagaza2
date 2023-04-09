@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sytle.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h3>KitapMekanı</h3>
+            <h1>Çok Okunanlar</h1>
+        </div>
+    
+        <div class="filter">
+            <input placeholder="Aramak istediğiniz kitabı yazınız" onkeyup="searchCollections(this.value)">
+            <ul class="filter__categories">
+                <li class="active">All</li>
+                <li class="active">Bilim Kurgu</li>
+                <li class="active">Trajedi</li>
+                </ul>
+        </div>
+    </div>
+
+    <div class="collections"> 
+        <div class="collections_item">
+            <a class="collection_container">
+            <img class="collection_img" src="./images/1.jpg" height="350">
+            <div>
+            <strong>Gece Yarısı Kütüphanesi</strong>
+            <span>Stokta Var</span><br>
+            <span>Tarih</span>
+            </div>
+            <div class="collection_price">
+                <strong>15TL</strong>
+            </div>
+        </a>
+        </div>
+        <div class="collections_item">
+            <div class="collection_container">
+            <img class="collection_img" src="./images/2.jpg" height="350">
+            <div>
+            <strong>Fareler Ve İnsanlar</strong>
+            <span>Stokta Var</span><br>
+            <span>Tarih</span>
+            </div>
+            <div class="collection_price">
+                <strong>25TL</strong>
+            </div>
+          </div>
+        </div>
+        <div class="collections_item">
+            <div class="collection_container">
+            <img class="collection_img" src="./images/3.jpg" height="350">
+            <div>
+            <strong>Cesur Yeni Dünya</strong>
+            <span>Stokta Var</span><br>
+            <span>Tarih</span>
+            </div>
+            <div class="collection_price">
+                <strong>30TL</strong>
+            </div>
+          </div>
+        </div>
+        <div class="collections_item">
+            <div class="collection_container">
+            <img class="collection_img" src="./images/1.jpg" height="350">
+            <div>
+            <strong>Gece Yarısı Kütüphanesi</strong>
+            <span>Stokta Var</span><br>
+            <span>Tarih</span>
+            </div>
+            <div class="collection_price">
+                <strong>15TL</strong>
+            </div>
+          </div>
+        </div>
+        <div class="collections_item">
+            <div class="collection_container">
+            <img class="collection_img" src="./images/1.jpg" height="350">
+            <div>
+            <strong>Gece Yarısı Kütüphanesi</strong>
+            <span>Stokta Var</span><br>
+            <span>Tarih</span>
+            </div>
+            <div class="collection_price">
+                <strong>15TL</strong>
+            </div>
+          </div>
+        </div>
+        <div class="collections_item">
+            <div class="collection_container">
+            <img class="collection_img" src="./images/1.jpg" height="350">
+            <div>
+            <strong>Gece Yarısı Kütüphanesi</strong>
+            <span>Stokta Var</span><br>
+            <span>Tarih</span>
+            </div>
+            <div class="collection_price">
+                <strong>15TL</strong>
+            </div>
+          </div>
+        </div>
+       
+    </div>
+
+    <script src="app.js"></script>
+    <script src="collections.js"></script>
+    
+    
+</body>
+</html>
